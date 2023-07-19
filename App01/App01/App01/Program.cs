@@ -5,4 +5,7 @@
  * de curso de C#
  */
 
-Console.WriteLine("Hello, este es un mensaje de consola");
+string nombre = "Dayu";
+var pagina = "http://WWW.mipagina.com";
+
+Console.WriteLine("Hello, soy " + nombre + " y mi pagina es " + pagina);
