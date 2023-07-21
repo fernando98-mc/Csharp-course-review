@@ -24,9 +24,13 @@ byte miNumeroByte = 249;
 bool miBooleano = true;
 
 string miCadena = "es una cadena de texto";
+miCadena = "esta es mi nueva cadena";
 
 // solo alamacena un caracter
 char micaracter = 'A';
+
+// las constante no se pueden alterar
+const int misNumero = 213;
 
 
 Console.WriteLine("Hello, soy " + nombre + " y mi pagina es " + pagina);
