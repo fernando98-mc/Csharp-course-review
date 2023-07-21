@@ -62,14 +62,27 @@ Console.WriteLine("Escribe el primer numero");
 var primerNumeroString = Console.ReadLine();
 var primerNumeroInt = int.Parse(primerNumeroString!); // con "!" le decimos que nosera null
 
-Console.WriteLine("Escribe el segundo nimero");
+Console.WriteLine("Escribe el segundo numero");
 var segundoNumeroString = Console.ReadLine();
 var segundoNumeroInt = int.Parse(segundoNumeroString!); // con "!" le decimos que nosera null
 
-var resultadoSuma = primerNumeroInt + segundoNumeroInt;
-var resultadoResta = primerNumeroInt - segundoNumeroInt;
-var resultadoMultiplicacion = primerNumeroInt * segundoNumeroInt;
-var resultadoDivision = primerNumeroInt / segundoNumeroInt;
+//var resultadoSuma = primerNumeroInt + segundoNumeroInt;
+//var resultadoResta = primerNumeroInt - segundoNumeroInt;
+//var resultadoMultiplicacion = primerNumeroInt * segundoNumeroInt;
+//var resultadoDivision = primerNumeroInt / segundoNumeroInt;
+
+// OPERADORES DE ASIGNACION
+var resultadoSuma = primerNumeroInt;
+resultadoSuma += segundoNumeroInt;
+
+var resultadoResta = primerNumeroInt;
+resultadoResta -= segundoNumeroInt;
+
+var resultadoMultiplicacion = primerNumeroInt;
+resultadoMultiplicacion *= segundoNumeroInt;
+
+var resultadoDivision = primerNumeroInt;
+resultadoDivision /= segundoNumeroInt;
 
 
 Console.WriteLine("El resultado de la SUMA es : " + resultadoSuma);
