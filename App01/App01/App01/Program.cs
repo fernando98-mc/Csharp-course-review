@@ -32,5 +32,14 @@ char micaracter = 'A';
 // las constante no se pueden alterar
 const int misNumero = 213;
 
+// paea usar null se necesita poner "?" despues del tipo de dato
+
+bool? miBoleanoNull = null;
+
+int? miNumeroNull = null;
+
+// string en versiones nuevas no requiere "?"
+string miCadenaNull = null;
+
 
 Console.WriteLine("Hello, soy " + nombre + " y mi pagina es " + pagina);
