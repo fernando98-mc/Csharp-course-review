@@ -60,7 +60,39 @@
 
 Console.WriteLine("Escribe el primer numero");
 var primerNumeroString = Console.ReadLine();
-var primerNumeroInt = int.Parse(primerNumeroString!); // con "!" le decimos que nosera null
+
+//if(primerNumeroString is null || primerNumeroString == "")
+//{
+//    Console.WriteLine("El programa finalizao por un error");
+//    return;
+//}
+
+
+if(string.IsNullOrEmpty(primerNumeroString))
+{
+    Console.WriteLine("El numoer ingresa es nulo o esta vacio, segun isNullOrEMpty");
+    return;
+}
+
+
+// ALGORITMO PARA EVALUAR SI UN TEXTO TIENE LA NOMENCLATURA DE NUMERO
+// SI ES POSIBLE CONVERTIR UN TEXTO A NUMERO
+// 1 - Es declarar una variable resultado posible
+// 2 - Condicionar si el texto esta realmente escrito en una nomenclatura numerica
+// 3 - En caso de que no sea un numero, entonces termian el programa
+// 4 - En caso de que si sea un numero entonces continua la ejecucion del programa
+
+
+int primerNumeroInt = 0;
+
+// si no es un numero
+if(! int.TryParse(primerNumeroString, out primerNumeroInt))
+{
+    Console.WriteLine("El valor ingresado no es un numero");
+    return;
+}
+
+//var primerNumeroInt = int.Parse(primerNumeroString!); // con "!" le decimos que nosera null
 
 Console.WriteLine("Escribe el segundo numero");
 var segundoNumeroString = Console.ReadLine();
