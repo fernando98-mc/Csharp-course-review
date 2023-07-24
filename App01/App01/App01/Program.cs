@@ -92,6 +92,27 @@ if(! int.TryParse(primerNumeroString, out primerNumeroInt))
     return;
 }
 
+if(primerNumeroInt >= 100)
+{
+    Console.WriteLine("Su numero es mayor o igual a 100");
+}
+else 
+{
+    Console.WriteLine("Su numero es menor que 100");
+}
+
+
+if(primerNumeroInt <= 10)
+{
+    Console.WriteLine("El numero es menor o igual que 10");
+} else if (primerNumeroInt >10 && primerNumeroInt <=20)
+{
+    Console.WriteLine("El numero es mayor que 10 p menor igual a 20");
+} else
+{
+    Console.WriteLine("El numero es mayor que 20");
+}
+
 //var primerNumeroInt = int.Parse(primerNumeroString!); // con "!" le decimos que nosera null
 
 Console.WriteLine("Escribe el segundo numero");
