@@ -52,9 +52,10 @@
  * 
  * 1 - El cliente ingresa un numero X
  * 2 - El cliente ingresa el segundo numero  y
- * 3 - El programa captura estos valores y los almacena en variables
- * 4 - El programa se encarga de realizar la operacion matematica
- * 5 - El programa se encarga imprimir el resultado de la operacion
+ * 3 - El usuario ingresa el tipo de opereacion a realizar suma, resta, multiplicacion o divicion
+ * 4 - El programa captura estos valores y los almacena en variables
+ * 5 - El programa se encarga de realizar la operacion matematica
+ * 6 - El programa se encarga imprimir el resultado de la operacion
  * 
  */
 
@@ -117,7 +118,35 @@ if(primerNumeroInt <= 10)
 
 Console.WriteLine("Escribe el segundo numero");
 var segundoNumeroString = Console.ReadLine();
-var segundoNumeroInt = int.Parse(segundoNumeroString!); // con "!" le decimos que nosera null
+
+if(string.IsNullOrEmpty(primerNumeroString))
+{
+    Console.WriteLine("El segundo numoer esta en blanco o es nulo");
+    return;
+}
+
+int segundoNumeroInt = 0;
+
+// "!" negacion para saber sino lo puede convertir
+if( !int.TryParse(segundoNumeroString, out segundoNumeroInt))
+{
+    Console.WriteLine("El valor ingresado no es un numero");
+    return;
+}
+
+Console.WriteLine("Selecccionar 1 - Sume " +
+                               "2 - Resta" +
+                               "3 - Multiplicacion" +
+                               "4 - Divicion");
+
+int tipoOperacion = int.TryParse(Console.ReadLine(), out tipoOperacion) ? tipoOperacion : 0;
+
+//var segundoNumeroInt = int.Parse(segundoNumeroString!); // con "!" le decimos que nosera null
+
+
+
+
+
 
 //var resultadoSuma = primerNumeroInt + segundoNumeroInt;
 //var resultadoResta = primerNumeroInt - segundoNumeroInt;
@@ -125,21 +154,21 @@ var segundoNumeroInt = int.Parse(segundoNumeroString!); // con "!" le decimos qu
 //var resultadoDivision = primerNumeroInt / segundoNumeroInt;
 
 // OPERADORES DE ASIGNACION
-var resultadoSuma = primerNumeroInt;
-resultadoSuma += segundoNumeroInt;
+//var resultadoSuma = primerNumeroInt;
+//resultadoSuma += segundoNumeroInt;
 
-var resultadoResta = primerNumeroInt;
-resultadoResta -= segundoNumeroInt;
+//var resultadoResta = primerNumeroInt;
+//resultadoResta -= segundoNumeroInt;
 
-var resultadoMultiplicacion = primerNumeroInt;
-resultadoMultiplicacion *= segundoNumeroInt;
+//var resultadoMultiplicacion = primerNumeroInt;
+//resultadoMultiplicacion *= segundoNumeroInt;
 
-var resultadoDivision = primerNumeroInt;
-resultadoDivision /= segundoNumeroInt;
+//var resultadoDivision = primerNumeroInt;
+//resultadoDivision /= segundoNumeroInt;
 
 
-Console.WriteLine("El resultado de la SUMA es : " + resultadoSuma);
-Console.WriteLine("El resultado de la RESTA es : " + resultadoResta);
-// concatener usando $ y {}
-Console.WriteLine($"El rsultado de la MULTIPLICACION es : {resultadoMultiplicacion}");
-Console.WriteLine($"El resultado de la DIVISION es : {resultadoDivision}");
+//Console.WriteLine("El resultado de la SUMA es : " + resultadoSuma);
+//Console.WriteLine("El resultado de la RESTA es : " + resultadoResta);
+//// concatener usando $ y {}
+//Console.WriteLine($"El rsultado de la MULTIPLICACION es : {resultadoMultiplicacion}");
+//Console.WriteLine($"El resultado de la DIVISION es : {resultadoDivision}");
