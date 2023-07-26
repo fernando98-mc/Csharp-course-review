@@ -134,12 +134,41 @@ if( !int.TryParse(segundoNumeroString, out segundoNumeroInt))
     return;
 }
 
-Console.WriteLine("Selecccionar 1 - Sume " +
-                               "2 - Resta" +
-                               "3 - Multiplicacion" +
-                               "4 - Divicion");
+Console.WriteLine("Selecccionar 1 - Suma " +
+                               " 2 - Resta " +
+                               " 3 - Multiplicacion " +
+                               " 4 - Divicion");
 
 int tipoOperacion = int.TryParse(Console.ReadLine(), out tipoOperacion) ? tipoOperacion : 0;
+
+int total = 0;
+
+switch(tipoOperacion)
+{
+    case 1:
+        total = primerNumeroInt + segundoNumeroInt;
+        Console.WriteLine($"{primerNumeroInt} + {segundoNumeroInt} = {total}");
+        break;
+
+    case 2:
+        total = primerNumeroInt - segundoNumeroInt;
+        Console.WriteLine($"{primerNumeroInt} - {segundoNumeroInt} = {total}");
+        break;
+
+    case 3:
+        total = primerNumeroInt * segundoNumeroInt;
+        Console.WriteLine($"{primerNumeroInt} * {segundoNumeroInt} = {total}");
+        break;
+
+    case 4:
+        total = segundoNumeroInt / primerNumeroInt;
+        Console.WriteLine($"{primerNumeroInt} / {segundoNumeroInt} = {total}");
+        break;
+
+    default:
+        Console.WriteLine("Ingresaste un numero erroneo, ingresa un numero valio del 1 al 4");
+        return;
+}
 
 //var segundoNumeroInt = int.Parse(segundoNumeroString!); // con "!" le decimos que nosera null
 
