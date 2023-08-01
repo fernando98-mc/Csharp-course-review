@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\Bucles.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\Bucles.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\Bucles.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\Bucles.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\ref\Bucles.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\bin\Debug\net6.0\Bucles.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\ref\Bucles.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucles\obj\Debug\net6.0\Bucles.genruntimeconfig.cache
