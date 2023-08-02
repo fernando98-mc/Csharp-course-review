@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01", "App01\App01.csproj", "{E93591F1-8EBA-4268-8DC6-5FF802C2BFD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucles", "Bucles\Bucles.csproj", "{D1479C86-2AEE-4058-BC2D-ECAD25703F86}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucles for", "Bucles\Bucles for.csproj", "{D1479C86-2AEE-4058-BC2D-ECAD25703F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bucle-while", "Bucle-while\Bucle-while.csproj", "{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D1479C86-2AEE-4058-BC2D-ECAD25703F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1479C86-2AEE-4058-BC2D-ECAD25703F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1479C86-2AEE-4058-BC2D-ECAD25703F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

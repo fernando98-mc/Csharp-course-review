@@ -5,7 +5,17 @@
       "ProjectGuid": "e93591f1-8eba-4268-8dc6-5ff802c2bfd4",
       "DisplayName": "App01",
       "ColorIndex": 0
+    },
+    "d1479c86-2aee-4058-bc2d-ecad25703f86": {
+      "ProjectGuid": "d1479c86-2aee-4058-bc2d-ecad25703f86",
+      "DisplayName": "Bucles for",
+      "ColorIndex": 1
+    },
+    "d2e0c4ea-8e80-4add-8b06-9c2a1cf2ae41": {
+      "ProjectGuid": "d2e0c4ea-8e80-4add-8b06-9c2a1cf2ae41",
+      "DisplayName": "Bucle-while",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }

@@ -15,7 +15,7 @@ for(int i = 1; i <=80; i++)
 // 3 - Se debe imprimir el resultado de cada operacion
 
 Console.WriteLine("Ingresa un numero para multiplicar");
-var numeroMulyiplicado = int.Parse(Console.ReadLine());
+var numeroMulyiplicado = int.Parse(Console.ReadLine()!);
 
 Console.WriteLine("------------");
 

@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\Bucle-while.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\Bucle-while.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\Bucle-while.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\Bucle-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\ref\Bucle-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\bin\Debug\net6.0\Bucle-while.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\ref\Bucle-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\Bucle-while\obj\Debug\net6.0\Bucle-while.genruntimeconfig.cache
