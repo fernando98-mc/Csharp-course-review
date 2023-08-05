@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bucles for", "Bucles\Bucles
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bucle-while", "Bucle-while\Bucle-while.csproj", "{D2E0C4EA-8E80-4ADD-8B06-9C2A1CF2AE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do-while", "do-while\do-while.csproj", "{EDAF41F6-E201-473D-99F5-A2CD011055B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do-while", "do-while\do-while.csproj", "{EDAF41F6-E201-473D-99F5-A2CD011055B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{13107DE5-2852-4279-B3C4-6726F5F75602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EDAF41F6-E201-473D-99F5-A2CD011055B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDAF41F6-E201-473D-99F5-A2CD011055B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDAF41F6-E201-473D-99F5-A2CD011055B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13107DE5-2852-4279-B3C4-6726F5F75602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13107DE5-2852-4279-B3C4-6726F5F75602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13107DE5-2852-4279-B3C4-6726F5F75602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13107DE5-2852-4279-B3C4-6726F5F75602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
