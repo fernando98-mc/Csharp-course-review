@@ -20,7 +20,13 @@ do
     catch(System.FormatException e)
     {
         /* Imprimimos el error */
-        Console.WriteLine($"El tipo de error fue por : {e}");
+        Console.WriteLine($"El tipo de error fue por : {e.Message}");
+
+        if (e.Message is null)
+        {
+            throw;
+        }
+      
         /* Salta a la siguiente iteracion */
         continue;
     }
