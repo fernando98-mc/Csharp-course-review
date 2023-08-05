@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\do-while.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\do-while.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\do-while.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\do-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\ref\do-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\bin\Debug\net6.0\do-while.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\ref\do-while.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\do-while\obj\Debug\net6.0\do-while.genruntimeconfig.cache

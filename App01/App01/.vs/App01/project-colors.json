@@ -15,7 +15,12 @@
       "ProjectGuid": "d2e0c4ea-8e80-4add-8b06-9c2a1cf2ae41",
       "DisplayName": "Bucle-while",
       "ColorIndex": 2
+    },
+    "edaf41f6-e201-473d-99f5-a2cd011055b2": {
+      "ProjectGuid": "edaf41f6-e201-473d-99f5-a2cd011055b2",
+      "DisplayName": "do-while",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
