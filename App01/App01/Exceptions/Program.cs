@@ -21,7 +21,8 @@ do
     {
         /* Imprimimos el error */
         Console.WriteLine($"El tipo de error fue por : {e}");
-        
+        /* Salta a la siguiente iteracion */
+        continue;
     }
 
     acumulador += numero;
