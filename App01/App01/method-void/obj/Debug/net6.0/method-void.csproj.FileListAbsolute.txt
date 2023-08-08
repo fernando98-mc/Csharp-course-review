@@ -1,0 +1,14 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\method-void.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\method-void.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\method-void.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\method-void.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\ref\method-void.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\bin\Debug\net6.0\method-void.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\ref\method-void.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.genruntimeconfig.cache
