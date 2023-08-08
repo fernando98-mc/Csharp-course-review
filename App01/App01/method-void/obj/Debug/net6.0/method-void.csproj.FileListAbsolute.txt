@@ -12,3 +12,4 @@ C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\me
 C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\ref\method-void.dll
 C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.pdb
 C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.genruntimeconfig.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-void\obj\Debug\net6.0\method-void.csproj.AssemblyReference.cache
