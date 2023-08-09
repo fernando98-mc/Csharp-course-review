@@ -15,22 +15,35 @@
 // 3 - Imprimir dentro del bucle este numero aleatorio previamente generado
 
 
-void ImprimirNumero()
-{
+//void ImprimirNumero()
+//{
+//    Console.WriteLine("Ingreaa un numero alerario");
+//    var numeroRandom = int.Parse(Console.ReadLine());
+//    var random = new Random();
+//    for (int i =1; i <= numeroRandom; i++)
+//    {
+//        var numeroAleatorio = random.Next(1 , 100);
+//        Console.WriteLine($"EL numero random es  : {numeroAleatorio}");
+//    }
+//}
 
-    Console.WriteLine("Ingreaa un numero alerario");
+//ImprimirNumero();
 
-    var numeroRandom = int.Parse(Console.ReadLine());
+
+// Metodo con parametros
+
+void ImprimirNumero(int numeroRandom, string mensaje)
+{   
 
     var random = new Random();
 
-    for (int i =1; i <= numeroRandom; i++)
+    for (int i = 1; i <= numeroRandom; i++)
     {
-        var numeroAleatorio = random.Next(1 , 100);
+        var numeroAleatorio = random.Next(1, 100);
 
-        Console.WriteLine($"EL numero random es  : {numeroAleatorio}");
+        Console.WriteLine($"{mensaje} : {numeroAleatorio}");
     }
 
 }
 
-ImprimirNumero();
+ImprimirNumero(5, "Numero es : ");

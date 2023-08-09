@@ -25,7 +25,12 @@
       "ProjectGuid": "13107de5-2852-4279-b3c4-6726f5f75602",
       "DisplayName": "Exceptions",
       "ColorIndex": 4
+    },
+    "53be3094-8c31-49a4-a270-e1617bac54e9": {
+      "ProjectGuid": "53be3094-8c31-49a4-a270-e1617bac54e9",
+      "DisplayName": "method-void",
+      "ColorIndex": 5
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 6
 }
