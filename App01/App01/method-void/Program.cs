@@ -54,7 +54,7 @@
 // Valores por defecto o default
 
 //void ImprimirNumero(int numeroRandom = 3, string mensaje = "hola numero al random") // NO PRIORITARIO
-void ImprimirNumero(int numeroRandom, string mensaje)
+/**void ImprimirNumero(int numeroRandom, string mensaje)
 {
 
     var random = new Random();
@@ -69,3 +69,27 @@ void ImprimirNumero(int numeroRandom, string mensaje)
 }
 
 ImprimirNumero(5, "Numero es : "); // PRIORITARIO si los datos se pasan por metodos
+
+
+*/
+
+
+
+// Cambiar de orden los paramtetros
+
+void ImprimirNumero(int numeroRandom = 3, string mensaje = "Hola desde metodo")
+{
+
+    var random = new Random();
+
+    for (int i = 1; i <= numeroRandom; i++)
+    {
+        var numeroAleatorio = random.Next(1, 100);
+
+        Console.WriteLine($"{mensaje} { i } : {numeroAleatorio}");
+    }
+
+}
+
+ImprimirNumero(mensaje: "Cambio de orden de parametros", numeroRandom:4); // SE usa " : " para cambiar de
+                                                                          // orderen y se agrega la variable
