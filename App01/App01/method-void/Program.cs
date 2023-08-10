@@ -32,8 +32,30 @@
 
 // Metodo con parametros
 
+//void ImprimirNumero(int numeroRandom, string mensaje)
+//{   
+
+//    var random = new Random();
+
+//    for (int i = 1; i <= numeroRandom; i++)
+//    {
+//        var numeroAleatorio = random.Next(1, 100);
+
+//        Console.WriteLine($"{mensaje} : {numeroAleatorio}");
+//    }
+
+//}
+
+//ImprimirNumero(5, "Numero es : ");
+
+
+
+
+// Valores por defecto o default
+
+//void ImprimirNumero(int numeroRandom = 3, string mensaje = "hola numero al random") // NO PRIORITARIO
 void ImprimirNumero(int numeroRandom, string mensaje)
-{   
+{
 
     var random = new Random();
 
@@ -46,4 +68,4 @@ void ImprimirNumero(int numeroRandom, string mensaje)
 
 }
 
-ImprimirNumero(5, "Numero es : ");
+ImprimirNumero(5, "Numero es : "); // PRIORITARIO si los datos se pasan por metodos
