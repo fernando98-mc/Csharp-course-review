@@ -1,0 +1,14 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\tuplas.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\tuplas.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\tuplas.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\tuplas.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\ref\tuplas.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\bin\Debug\net6.0\tuplas.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\ref\tuplas.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.genruntimeconfig.cache
