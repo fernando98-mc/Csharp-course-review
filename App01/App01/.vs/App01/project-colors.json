@@ -35,7 +35,17 @@
       "ProjectGuid": "60c4bd99-a79f-4180-98f5-6b65a9d4de8a",
       "DisplayName": "CalcularSalario",
       "ColorIndex": 6
+    },
+    "2a84ef4c-dfa7-438b-a5fe-81f123e0e108": {
+      "ProjectGuid": "2a84ef4c-dfa7-438b-a5fe-81f123e0e108",
+      "DisplayName": "method-string",
+      "ColorIndex": 7
+    },
+    "fe8fef81-a3ef-4a65-af50-2ec8a056b3d4": {
+      "ProjectGuid": "fe8fef81-a3ef-4a65-af50-2ec8a056b3d4",
+      "DisplayName": "tuplas",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }
