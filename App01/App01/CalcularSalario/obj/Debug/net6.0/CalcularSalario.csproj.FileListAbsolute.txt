@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\CalcularSalario.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\CalcularSalario.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\CalcularSalario.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\CalcularSalario.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\ref\CalcularSalario.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\bin\Debug\net6.0\CalcularSalario.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\ref\CalcularSalario.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\CalcularSalario\obj\Debug\net6.0\CalcularSalario.genruntimeconfig.cache

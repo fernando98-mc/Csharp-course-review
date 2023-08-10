@@ -30,7 +30,12 @@
       "ProjectGuid": "53be3094-8c31-49a4-a270-e1617bac54e9",
       "DisplayName": "method-void",
       "ColorIndex": 5
+    },
+    "60c4bd99-a79f-4180-98f5-6b65a9d4de8a": {
+      "ProjectGuid": "60c4bd99-a79f-4180-98f5-6b65a9d4de8a",
+      "DisplayName": "CalcularSalario",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }

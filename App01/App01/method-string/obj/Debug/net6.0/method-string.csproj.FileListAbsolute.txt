@@ -1,0 +1,14 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\method-string.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\method-string.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\method-string.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\method-string.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\ref\method-string.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\bin\Debug\net6.0\method-string.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\ref\method-string.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-string\obj\Debug\net6.0\method-string.genruntimeconfig.cache

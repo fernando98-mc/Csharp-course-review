@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "do-while", "do-while\do-whi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{13107DE5-2852-4279-B3C4-6726F5F75602}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method-void", "method-void\method-void.csproj", "{53BE3094-8C31-49A4-A270-E1617BAC54E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "method-void", "method-void\method-void.csproj", "{53BE3094-8C31-49A4-A270-E1617BAC54E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcularSalario", "CalcularSalario\CalcularSalario.csproj", "{60C4BD99-A79F-4180-98F5-6B65A9D4DE8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method-string", "method-string\method-string.csproj", "{2A84EF4C-DFA7-438B-A5FE-81F123E0E108}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{53BE3094-8C31-49A4-A270-E1617BAC54E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53BE3094-8C31-49A4-A270-E1617BAC54E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53BE3094-8C31-49A4-A270-E1617BAC54E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C4BD99-A79F-4180-98F5-6B65A9D4DE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C4BD99-A79F-4180-98F5-6B65A9D4DE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C4BD99-A79F-4180-98F5-6B65A9D4DE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C4BD99-A79F-4180-98F5-6B65A9D4DE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A84EF4C-DFA7-438B-A5FE-81F123E0E108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A84EF4C-DFA7-438B-A5FE-81F123E0E108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A84EF4C-DFA7-438B-A5FE-81F123E0E108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A84EF4C-DFA7-438B-A5FE-81F123E0E108}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
