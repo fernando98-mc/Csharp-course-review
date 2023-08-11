@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\method-tupla.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\method-tupla.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\method-tupla.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\method-tupla.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\ref\method-tupla.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\bin\Debug\net6.0\method-tupla.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\ref\method-tupla.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.genruntimeconfig.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\method-tupla\obj\Debug\net6.0\method-tupla.csproj.AssemblyReference.cache
