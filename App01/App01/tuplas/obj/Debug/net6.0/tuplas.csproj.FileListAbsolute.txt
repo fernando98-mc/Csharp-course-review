@@ -12,3 +12,4 @@ C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.
 C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\ref\tuplas.dll
 C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.pdb
 C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.genruntimeconfig.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\tuplas\obj\Debug\net6.0\tuplas.csproj.AssemblyReference.cache

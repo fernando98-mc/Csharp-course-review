@@ -1,19 +1,19 @@
 ﻿
 
 
-(int a, string b, bool c) tupla = (15, "Daya", true);
-//var tupla = (15, "Daya", true);   // forma IMPLICITA
+//(int a, string b, bool c) tupla = (15, "Daya", true);
+var tupla = (15, "Daya", true);   // forma IMPLICITA
 
 // setear datos desde la ejecucion
-tupla.a = 17;
-var tuplaA = tupla.a;
+tupla.Item1 = 100;
+var tuplaItem1 = tupla.Item1;
 
-tupla.b = "Dayaa";
-var tuplaB = tupla.b;
+tupla.Item2 = "Dayaa";
+var tuplaItem2 = tupla.Item2;
 
-tupla.c = false;
-var tuplaC = tupla.c;
+tupla.Item3 = false;
+var tuplaItem3 = tupla.Item3;
 
-Console.WriteLine($"La edad es de : {tuplaA}");
-Console.WriteLine($"El nombre es  : {tuplaB}");
-Console.WriteLine($"Es chica : {tuplaC}");
+Console.WriteLine($"La edad es de : {tuplaItem1}");
+Console.WriteLine($"El nombre es  : {tuplaItem2}");
+Console.WriteLine($"Es chica : {tuplaItem3}");
