@@ -45,7 +45,12 @@
       "ProjectGuid": "fe8fef81-a3ef-4a65-af50-2ec8a056b3d4",
       "DisplayName": "tuplas",
       "ColorIndex": 8
+    },
+    "d5f87808-6135-4fbc-aca1-3b542601c4a8": {
+      "ProjectGuid": "d5f87808-6135-4fbc-aca1-3b542601c4a8",
+      "DisplayName": "method-tupla",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 10
 }
