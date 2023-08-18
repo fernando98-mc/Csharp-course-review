@@ -9,9 +9,9 @@ namespace POO
     public class Libro
     {
         // propiedades
-        string _nombre;
-        string _autor;
-        int _cantidadPaginas;
+        public string _nombre;
+        protected string _autor;
+        private int _cantidadPaginas;
 
         // constructor          parametros
         public Libro(string nombre, string autor, int cantidadPaginas)
