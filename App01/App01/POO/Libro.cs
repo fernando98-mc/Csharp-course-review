@@ -26,5 +26,15 @@ namespace POO
             return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
         }
 
+        public string GetNombre()
+        {
+            return _nombre;
+        }
+
+        public void SetNombre(string nombreLibro)
+        {
+            _nombre = nombreLibro;
+        }
+
     }
 }

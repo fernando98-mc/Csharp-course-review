@@ -50,7 +50,12 @@
       "ProjectGuid": "d5f87808-6135-4fbc-aca1-3b542601c4a8",
       "DisplayName": "method-tupla",
       "ColorIndex": 9
+    },
+    "b0f5f01f-23ea-41bb-aa00-435be13262eb": {
+      "ProjectGuid": "b0f5f01f-23ea-41bb-aa00-435be13262eb",
+      "DisplayName": "POO",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }
