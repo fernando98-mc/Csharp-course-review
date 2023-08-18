@@ -21,5 +21,10 @@ namespace POO
             _cantidadPaginas = cantidadPaginas;
         }
 
+        public string GetDescripcionLibro()
+        {
+            return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
+        }
+
     }
 }

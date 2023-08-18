@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\POO.exe
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\POO.deps.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\POO.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\POO.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\ref\POO.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\bin\Debug\net6.0\POO.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\ref\POO.dll
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.pdb
+C:\Users\Userr\source\repos\Curso C#\App01\App01\POO\obj\Debug\net6.0\POO.genruntimeconfig.cache
