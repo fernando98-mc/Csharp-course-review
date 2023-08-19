@@ -46,5 +46,15 @@ namespace POO
             _autor = autorLibro;
         }
 
+        public int GetNumeroPaginas()
+        {
+            return _cantidadPaginas;
+        }
+
+        public void SetNumeroPaginas(int numeroPaginas)
+        {
+            _cantidadPaginas = numeroPaginas;
+        }
+
     }
 }
