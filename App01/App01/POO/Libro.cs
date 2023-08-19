@@ -36,5 +36,15 @@ namespace POO
             _nombre = nombreLibro;
         }
 
+        public string GetAutor()
+        {
+            return _autor;
+        }
+
+        public void SetAutor(string autorLibro)
+        {
+            _autor = autorLibro;
+        }
+
     }
 }
