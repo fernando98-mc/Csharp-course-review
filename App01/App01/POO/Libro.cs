@@ -8,10 +8,37 @@ namespace POO
 {
     public class Libro
     {
-        // propiedades
-        public string _nombre;
-        protected string _autor;
+        // "propiedades"
+        private string _nombre;
+
+        // PROPIEDADES
+        public string Nombre
+        {
+            get
+            {
+                return _nombre;
+            }
+            set
+            {
+                _nombre = value;
+            }
+        }
+
+
+        private string _autor;
+
+        // PROPIEDAD
+        public string Autor
+        {
+            get => _autor;
+            set => _autor = value;
+        }
+
+
         private int _cantidadPaginas;
+
+        // PROPIEDAD MAS USADO
+        public int CantidadPaginas { get; set; }
 
         // constructor          parametros
         public Libro(string nombre, string autor, int cantidadPaginas)
@@ -21,40 +48,44 @@ namespace POO
             _cantidadPaginas = cantidadPaginas;
         }
 
-        public string GetDescripcionLibro()
-        {
-            return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
-        }
+        //public string GetDescripcionLibro()
+        //{
+        //    return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
+        //}
 
-        public string GetNombre()
-        {
-            return _nombre;
-        }
+        //  Tecnica con fleca
+        public string GetDescripcionLibro() => $"{Autor} escribio {Nombre} tiene {CantidadPaginas} paginas";
 
-        public void SetNombre(string nombreLibro)
-        {
-            _nombre = nombreLibro;
-        }
 
-        public string GetAutor()
-        {
-            return _autor;
-        }
+        //public string GetNombre()
+        //{
+        //    return _nombre;
+        //}
 
-        public void SetAutor(string autorLibro)
-        {
-            _autor = autorLibro;
-        }
+        //public void SetNombre(string nombreLibro)
+        //{
+        //    _nombre = nombreLibro;
+        //}
 
-        public int GetNumeroPaginas()
-        {
-            return _cantidadPaginas;
-        }
+        //public string GetAutor()
+        //{
+        //    return _autor;
+        //}
 
-        public void SetNumeroPaginas(int numeroPaginas)
-        {
-            _cantidadPaginas = numeroPaginas;
-        }
+        //public void SetAutor(string autorLibro)
+        //{
+        //    _autor = autorLibro;
+        //}
+
+        //public int GetNumeroPaginas()
+        //{
+        //    return _cantidadPaginas;
+        //}
+
+        //public void SetNumeroPaginas(int numeroPaginas)
+        //{
+        //    _cantidadPaginas = numeroPaginas;
+        //}
 
     }
 }
