@@ -28,8 +28,8 @@ namespace POO
         //    return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
         //}
 
-        //  Tecnica con flecha
-        public override string GetDescripcionLibro() => $"{Autor} escribio {Nombre} tiene {NumeroPaginas} paginas";
+        //  Tecnica con flecha "override" sobreescribe metodo padre
+        public override string GetDescripcionPublicacion() => $"Nombre {Autor} libro {Nombre} tiene {NumeroPaginas} paginas ${Precio}";
 
 
         //public string GetNombre()

@@ -22,7 +22,8 @@ namespace POO
             NumeroPaginas = numeroPaginas;
         }
 
-        public virtual string GetDescripcionLibro() => $"{Nombre} cuesta {Precio}";
+        //     "virtual" hereda a las clases hijos
+        public virtual string GetDescripcionPublicacion() => $"{Nombre} cuesta {Precio}";
 
 
     }

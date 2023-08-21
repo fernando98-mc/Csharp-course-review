@@ -16,5 +16,9 @@ namespace POO
             Periodista = periodista;
         }
 
+        // "override" sobreescribe el metodo padre
+        public override string GetDescripcionPublicacion() 
+            => $"Revista {Nombre} Periodista : {Periodista} precio {Precio}";
+
     }
 }
