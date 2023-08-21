@@ -6,27 +6,10 @@ using System.Threading.Tasks;
 
 namespace POO
 {
-    public class Libro
-    {
-        // "propiedades"
-        private string _nombre;
-
-        // PROPIEDADES
-        public string Nombre
-        {
-            get
-            {
-                return _nombre;
-            }
-            set
-            {
-                _nombre = value;
-            }
-        }
-
+    public class Libro : Publicacion
+    {   
 
         private string _autor;
-
         // PROPIEDAD
         public string Autor
         {
@@ -34,18 +17,10 @@ namespace POO
             set => _autor = value;
         }
 
-
-        private int _cantidadPaginas;
-
-        // PROPIEDAD MAS USADO
-        public int CantidadPaginas { get; set; }
-
         // constructor          parametros
-        public Libro(string nombre, string autor, int cantidadPaginas)
+        public Libro(string nombre, string autor, int cantidadPaginas, decimal precio):base(nombre, precio, cantidadPaginas)
         {
-            _nombre = nombre;
             _autor = autor;
-            _cantidadPaginas = cantidadPaginas;
         }
 
         //public string GetDescripcionLibro()
@@ -53,8 +28,8 @@ namespace POO
         //    return $"{_nombre} por {_autor} cantidad de hojas {_cantidadPaginas}";
         //}
 
-        //  Tecnica con fleca
-        public string GetDescripcionLibro() => $"{Autor} escribio {Nombre} tiene {CantidadPaginas} paginas";
+        //  Tecnica con flecha
+        public override string GetDescripcionLibro() => $"{Autor} escribio {Nombre} tiene {NumeroPaginas} paginas";
 
 
         //public string GetNombre()

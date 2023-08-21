@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace POO
 {
-    internal class Revista
+    public class Revista : Publicacion
     {
+        public string? Periodista { get; set; }
+
+        public Revista(string periodista, string nombre, decimal precio, int cantidadPaginas)
+            :base(nombre, precio, cantidadPaginas)
+        {
+            Periodista = periodista;
+        }
+
     }
 }
