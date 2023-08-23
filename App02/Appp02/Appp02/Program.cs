@@ -17,4 +17,17 @@ listaPersonas.Add("Sera");
 
 // contar cuantas personas hay en la lista
 Console.WriteLine($"Hay un total de {listaPersonas.Count} chicas :)");
-Console.WriteLine(listaPersonas[2]);
+//Console.WriteLine(listaPersonas[2]);
+
+
+
+// crear un metodo para imprimir todos los elementos de la lista
+void ImprimirPersonas(List<string> imprimirPersonas)
+{
+    foreach (var itemPersona in imprimirPersonas)
+    {
+        Console.WriteLine($"{itemPersona}");
+    }
+}
+
+ImprimirPersonas(listaPersonas);
