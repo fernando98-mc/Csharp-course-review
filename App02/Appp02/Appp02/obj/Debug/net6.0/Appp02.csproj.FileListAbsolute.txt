@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\Appp02.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\Appp02.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\Appp02.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\Appp02.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\ref\Appp02.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\bin\Debug\net6.0\Appp02.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\ref\Appp02.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Appp02\obj\Debug\net6.0\Appp02.genruntimeconfig.cache
