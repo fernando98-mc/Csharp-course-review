@@ -53,4 +53,11 @@ var busquedaPersonas = listaPersonas.Exists( x => x.Length > 10);
 
 Console.WriteLine($"Existe un nombre con mas de 10 caracteres = : {busquedaPersonas}");
 
+// Este metodo busca los nombre con "C"
+var busquedaPersonaC = listaPersonas.Find(x => x.StartsWith("C"));
 
+Console.WriteLine($"El nombre que empieza con la letra C es : {busquedaPersonaC}");
+
+var busquedaPersonaG = listaPersonas.FindAll( x => x.StartsWith("G"));
+Console.WriteLine($"Las personas que empiezan con la letra G son :");
+ImprimirPersonas(busquedaPersonaG);
