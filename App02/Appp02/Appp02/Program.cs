@@ -2,8 +2,8 @@
 
 
 // array de personas tipo string
-string[] personas = { "Daya", "Mani", "Cele", "Gise", "Gin" };
-//  posicion            0       1       2       3       4
+string[] personas = { "Daya", "Mani", "Cele", "Gise", "Gin", "Marianita G." };
+//  posicion            0       1       2       3       4      5   
 
 
 // List Collection - creacion de objeto lista
@@ -46,5 +46,11 @@ Console.WriteLine($"El primer elemento de la lista es - {listaPersonas[0]}");
 
 // Este elemento te permite saber si un elemento existe en la lista
 Console.WriteLine($"Existe Daya en la lista : {listaPersonas.Contains("Daya")}");
+
+
+// Este metodo busca quellos nombres con mas de 10 caracteres
+var busquedaPersonas = listaPersonas.Exists( x => x.Length > 10);
+
+Console.WriteLine($"Existe un nombre con mas de 10 caracteres = : {busquedaPersonas}");
 
 
