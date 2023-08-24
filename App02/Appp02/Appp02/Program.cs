@@ -41,3 +41,10 @@ ImprimirPersonas(listaPersonas);
 
 // consultar un elemento de la lista
 Console.WriteLine($"El primer elemento de la lista es - {listaPersonas[0]}");
+
+
+
+// Este elemento te permite saber si un elemento existe en la lista
+Console.WriteLine($"Existe Daya en la lista : {listaPersonas.Contains("Daya")}");
+
+
