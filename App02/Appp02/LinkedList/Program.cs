@@ -54,3 +54,8 @@ Console.WriteLine($"Se agrego traje en la lista ");
 
 // Buscar elemento
 Console.WriteLine($"Buscar elemento Blusa : {ropaLinkedList.Contains("Blusa")}");
+
+
+// Acceder a la data utilizando los metodos siguiente Next y Previus(siguiente y anterior)
+Console.WriteLine($"La ropa siguiente a la primera es : {primerRopa.Next!.Value}");
+Console.WriteLine($"La ropa anterior a la ultima es : {ultimaRopa.Previous!.Value}");
