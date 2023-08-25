@@ -25,8 +25,12 @@ Console.WriteLine($"El primer numero es : {primerNum}");
 string eliminarNum = stackNumeros.Pop();
 Console.WriteLine($"Se ha eliminado el siguiente numero : {eliminarNum}");
 
-foreach (string impNums in stackNumeros)
+foreach ( string impNums in stackNumeros)
 {
     Console.WriteLine(impNums);
 }
 
+
+// Buscar elemento con "Contains"
+var buscarNum = stackNumeros.Contains("uno");
+Console.WriteLine($"¿El numero uno si existe? : {buscarNum}");
