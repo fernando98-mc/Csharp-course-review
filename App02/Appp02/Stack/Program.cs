@@ -16,3 +16,7 @@ foreach (string impNumeros in stackNumeros)
     Console.WriteLine(impNumeros);
 }
 
+// Buscar al primer elemento
+string primerNum = stackNumeros.Peek();
+Console.WriteLine($"El primer numero es : {primerNum}");
+
