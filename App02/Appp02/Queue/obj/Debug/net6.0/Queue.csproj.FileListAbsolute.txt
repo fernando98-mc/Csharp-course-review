@@ -1,0 +1,14 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\Queue.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\Queue.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\Queue.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\Queue.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\ref\Queue.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\bin\Debug\net6.0\Queue.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\ref\Queue.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Queue\obj\Debug\net6.0\Queue.genruntimeconfig.cache

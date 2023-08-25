@@ -34,3 +34,4 @@ foreach ( string impNums in stackNumeros)
 // Buscar elemento con "Contains"
 var buscarNum = stackNumeros.Contains("uno");
 Console.WriteLine($"¿El numero uno si existe? : {buscarNum}");
+
