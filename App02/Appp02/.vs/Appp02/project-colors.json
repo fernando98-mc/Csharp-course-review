@@ -5,7 +5,12 @@
       "ProjectGuid": "32398165-730a-4bf4-bc0f-1f35d23c7d84",
       "DisplayName": "Appp02",
       "ColorIndex": 0
+    },
+    "d4f96bf5-9c80-463b-910c-431ddf86599d": {
+      "ProjectGuid": "d4f96bf5-9c80-463b-910c-431ddf86599d",
+      "DisplayName": "LinkedList",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
