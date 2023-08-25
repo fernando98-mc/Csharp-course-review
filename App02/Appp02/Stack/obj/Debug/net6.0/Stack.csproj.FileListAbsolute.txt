@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\Stack.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\Stack.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\Stack.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\Stack.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\ref\Stack.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\bin\Debug\net6.0\Stack.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\ref\Stack.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Stack\obj\Debug\net6.0\Stack.genruntimeconfig.cache

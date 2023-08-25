@@ -10,7 +10,12 @@
       "ProjectGuid": "d4f96bf5-9c80-463b-910c-431ddf86599d",
       "DisplayName": "LinkedList",
       "ColorIndex": 1
+    },
+    "c38a2f25-2704-4dfc-8df2-b502f873eb62": {
+      "ProjectGuid": "c38a2f25-2704-4dfc-8df2-b502f873eb62",
+      "DisplayName": "Stack",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
