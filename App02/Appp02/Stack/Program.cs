@@ -20,3 +20,13 @@ foreach (string impNumeros in stackNumeros)
 string primerNum = stackNumeros.Peek();
 Console.WriteLine($"El primer numero es : {primerNum}");
 
+
+// Remover eliminar elemento
+string eliminarNum = stackNumeros.Pop();
+Console.WriteLine($"Se ha eliminado el siguiente numero : {eliminarNum}");
+
+foreach (string impNums in stackNumeros)
+{
+    Console.WriteLine(impNums);
+}
+
