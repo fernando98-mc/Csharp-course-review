@@ -16,3 +16,22 @@ foreach (string num in numsQueue)
 {
     Console.WriteLine(num);
 }
+
+
+// Buscar al primer elemento
+var buscarPrimerNum = numsQueue.Peek();
+Console.WriteLine($"El primer numero es : {buscarPrimerNum}");
+
+/**
+ * SE ELIMINAN Y SE AGREGAN DESDE LOS PRIMEROS VALORES
+ * 
+ */
+
+// Eliminar elemento 
+string eliminarNum = numsQueue.Dequeue();
+Console.WriteLine($"Se eliminara : {eliminarNum}");
+
+foreach (string newNum in numsQueue)
+{
+    Console.WriteLine(newNum);
+}
