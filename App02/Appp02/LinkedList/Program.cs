@@ -41,6 +41,8 @@ Console.WriteLine($"La ultima ropa es : {ultimaRopa.Value}");
 
 // Los elemento pueden ser removidos o eliminados de un item existente
 ropaLinkedList.AddAfter(primerRopa, "Traje");
+// eliminar
+//ropaLinkedList.RemoveFirst(primerRopa, "traje");
 
 foreach (string listaRopa in ropaLinkedList)
 {
@@ -48,3 +50,7 @@ foreach (string listaRopa in ropaLinkedList)
 }
 
 Console.WriteLine($"Se agrego traje en la lista ");
+
+
+// Buscar elemento
+Console.WriteLine($"Buscar elemento Blusa : {ropaLinkedList.Contains("Blusa")}");
