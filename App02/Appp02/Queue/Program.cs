@@ -35,3 +35,16 @@ foreach (string newNum in numsQueue)
 {
     Console.WriteLine(newNum);
 }
+
+
+// Buscar elemento con un datos especificamente
+var buscarNum = numsQueue.Contains("3");
+Console.WriteLine($"Existe el numero 3 en la lista : {buscarNum}");
+
+if (buscarNum == false)
+{
+    Console.WriteLine("El numero no existe");
+} else
+{
+    Console.WriteLine("El numero si existe");
+}
