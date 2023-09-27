@@ -15,7 +15,22 @@
       "ProjectGuid": "c38a2f25-2704-4dfc-8df2-b502f873eb62",
       "DisplayName": "Stack",
       "ColorIndex": 2
+    },
+    "1ea7fbea-8f70-4ca7-b841-a9e0680d803e": {
+      "ProjectGuid": "1ea7fbea-8f70-4ca7-b841-a9e0680d803e",
+      "DisplayName": "Queue",
+      "ColorIndex": 3
+    },
+    "df5f6765-7b07-42e2-a6b1-ac60700705eb": {
+      "ProjectGuid": "df5f6765-7b07-42e2-a6b1-ac60700705eb",
+      "DisplayName": "Dictionary",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }
