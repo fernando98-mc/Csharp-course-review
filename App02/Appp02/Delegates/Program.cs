@@ -2,7 +2,7 @@
 
 /**
  *  crear delegate
- */
+ 
 using Delegates;
 
 var objeto = new classFunctions();
@@ -20,3 +20,16 @@ Console.WriteLine($"El resultado de la operacion es : {f(32234,324)}");
 
 public delegate string MiDelegate(int arg1, int arg2);
 
+*/
+
+MiDelegate f = delegate (int i, string t) 
+{
+    return i + 99;
+};
+
+var resultado = f(1,"monedas");
+
+Console.WriteLine(resultado);
+
+
+public delegate int MiDelegate(int a, string txt);
