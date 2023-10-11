@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\Eventos.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\Eventos.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\Eventos.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\Eventos.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\ref\Eventos.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\bin\Debug\net6.0\Eventos.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\ref\Eventos.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos\obj\Debug\net6.0\Eventos.genruntimeconfig.cache
