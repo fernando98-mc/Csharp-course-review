@@ -3,12 +3,17 @@
 
 var obj = new EventPublisher();
 
-obj.valueChanged += new MiEventoHandler(obj_valueChanged);
-
-void obj_valueChanged(String value)
+obj.valueChanged += delegate (String val)
 {
-    Console.WriteLine($"El valor de la propiedad cambio {value}");
-}
+    Console.WriteLine($"El valor de la propiedad cambio a : {val}");
+};
+
+//obj.valueChanged += new MiEventoHandler(obj_valueChanged);
+
+//void obj_valueChanged(String value)
+//{
+    //Console.WriteLine($"El valor de la propiedad cambio {value}");
+//}
 
 string palabra;
 
