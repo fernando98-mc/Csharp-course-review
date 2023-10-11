@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Queue", "Queue\Queue.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{DF5F6765-7B07-42E2-A6B1-AC60700705EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{5CAA41C9-EF9D-46A7-A11C-553BF7F12B73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegates", "Delegates\Delegates.csproj", "{5CAA41C9-EF9D-46A7-A11C-553BF7F12B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eventos", "Eventos\Eventos.csproj", "{31D7DEDD-0C39-4D29-ABB2-EC83F2AC7AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5CAA41C9-EF9D-46A7-A11C-553BF7F12B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CAA41C9-EF9D-46A7-A11C-553BF7F12B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CAA41C9-EF9D-46A7-A11C-553BF7F12B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31D7DEDD-0C39-4D29-ABB2-EC83F2AC7AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31D7DEDD-0C39-4D29-ABB2-EC83F2AC7AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31D7DEDD-0C39-4D29-ABB2-EC83F2AC7AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31D7DEDD-0C39-4D29-ABB2-EC83F2AC7AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
