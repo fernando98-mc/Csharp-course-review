@@ -12,3 +12,4 @@ C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda
 C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\ref\Lambda.dll
 C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.pdb
 C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.genruntimeconfig.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.csproj.AssemblyReference.cache
