@@ -8,6 +8,18 @@ obj.valueChanged += delegate (String val)
     Console.WriteLine($"El valor de la propiedad cambio a : {val}");
 };
 
+obj.valueChanged += new MiEventoHandler(obj_valueChanged1);
+void obj_valueChanged1(string value)
+{
+    Console.WriteLine($"Se esta iniciando el evento handlre 2 {value}");
+}
+
+obj.valueChanged += new MiEventoHandler(obj_valueChanged2);
+void obj_valueChanged2(String value)
+{
+    Console.WriteLine($"Se est iniciando el evento handler 3 {value}");
+}
+
 //obj.valueChanged += new MiEventoHandler(obj_valueChanged);
 
 //void obj_valueChanged(String value)

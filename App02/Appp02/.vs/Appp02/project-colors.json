@@ -35,7 +35,12 @@
       "ProjectGuid": "5caa41c9-ef9d-46a7-a11c-553bf7f12b73",
       "DisplayName": "Delegates",
       "ColorIndex": 5
+    },
+    "31d7dedd-0c39-4d29-abb2-ec83f2ac7aee": {
+      "ProjectGuid": "31d7dedd-0c39-4d29-abb2-ec83f2ac7aee",
+      "DisplayName": "Eventos",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 7
 }
