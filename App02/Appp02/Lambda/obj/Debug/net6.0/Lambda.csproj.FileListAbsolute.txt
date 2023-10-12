@@ -1,0 +1,14 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\Lambda.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\Lambda.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\Lambda.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\ref\Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\bin\Debug\net6.0\Lambda.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\ref\Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Lambda\obj\Debug\net6.0\Lambda.genruntimeconfig.cache
