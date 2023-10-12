@@ -12,12 +12,15 @@ namespace Eventos
         public String TheVal;
 
         public event MiEventoHandler valueChanged;
+
+        public event EventHandler<MiEventoArgs> miEvento;
         public String Val
         {
             set
             {
                 this.TheVal = value;
                 this.valueChanged(value);
+                this.miEvento(this, new MiEventoArgs { data=TheVal});
             }
         }
 
