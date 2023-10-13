@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+
+using App03;
+
+var documento = new Documento("Dayaa");
+documento.Guardar();
+documento.Cargar();
+documento.NecesitaGuardar();
