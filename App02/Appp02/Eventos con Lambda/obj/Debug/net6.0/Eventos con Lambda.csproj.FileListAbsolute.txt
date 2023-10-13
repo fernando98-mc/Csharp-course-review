@@ -1,0 +1,15 @@
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\Eventos con Lambda.exe
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\Eventos con Lambda.deps.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\Eventos con Lambda.runtimeconfig.json
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\Eventos con Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\ref\Eventos con Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\bin\Debug\net6.0\Eventos con Lambda.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.csproj.AssemblyReference.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.AssemblyInfoInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.AssemblyInfo.cs
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.csproj.CoreCompileInputs.cache
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\ref\Eventos con Lambda.dll
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.pdb
+C:\Users\Userr\source\repos\Curso C#\App02\Appp02\Eventos con Lambda\obj\Debug\net6.0\Eventos con Lambda.genruntimeconfig.cache

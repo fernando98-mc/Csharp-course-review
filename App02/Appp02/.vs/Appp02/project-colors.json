@@ -40,7 +40,17 @@
       "ProjectGuid": "31d7dedd-0c39-4d29-abb2-ec83f2ac7aee",
       "DisplayName": "Eventos",
       "ColorIndex": 6
+    },
+    "a93c8778-bf72-408b-9eb6-20119a10825a": {
+      "ProjectGuid": "a93c8778-bf72-408b-9eb6-20119a10825a",
+      "DisplayName": "Lambda",
+      "ColorIndex": 7
+    },
+    "ae2c6707-762e-4e66-9615-e6f631f75326": {
+      "ProjectGuid": "ae2c6707-762e-4e66-9615-e6f631f75326",
+      "DisplayName": "Eventos con Lambda",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

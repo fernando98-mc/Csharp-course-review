@@ -4,7 +4,7 @@ namespace Eventos_con_Lambda
     public class MiClaseLambda
     {
         private string theVal;
-        private event MiEventoHandler valueChange;
+        public event MiEventoHandler valueChange;
 
         public string val
         {
