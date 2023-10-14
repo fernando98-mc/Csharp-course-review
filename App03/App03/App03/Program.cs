@@ -19,3 +19,9 @@ if (Ioperaciobes is not null)
     Ioperaciobes.Cargar();
 }
 
+documento.EnviarMensajeTexto();
+documento.EnviarMensaje();
+documento.EnviarNotificacion();
+
+IMensaje iMensaje = documento as IMensaje;
+iMensaje.EnviarMensajeTexto();

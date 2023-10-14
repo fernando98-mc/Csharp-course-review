@@ -2,7 +2,7 @@
 
 namespace App03
 {
-    public class Documento : IOperaciones
+    public class Documento : IOperaciones, IMensaje
     {
         private string nombre;
 
@@ -26,5 +26,22 @@ namespace App03
         {
             return false;
         }
+
+
+        public void EnviarMensaje()
+        {
+            Console.WriteLine("Enviar mensaje de po email");
+        }
+
+        public void EnviarMensajeTexto()
+        {
+            Console.WriteLine("Enviar mensaje de texto");
+        }
+
+        public void EnviarNotificacion()
+        {
+            Console.WriteLine("Enviar notificacion push");
+        }
+
     }
 }
