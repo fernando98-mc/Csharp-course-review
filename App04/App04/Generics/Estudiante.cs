@@ -15,7 +15,7 @@ namespace Generics
 
         public override string ToString()
         {
-            return base.ToString();
+            return $"{Nombre} - {Apellido}";
         }
 
     }
