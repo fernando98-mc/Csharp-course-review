@@ -10,3 +10,10 @@ estudiante[2] = new Estudiante("Clary","F.");
 estudiante[3] = new Estudiante("Nancy","R.");
 estudiante[4] = new Estudiante("Moni","Q.");
 estudiante[5] = new Estudiante("Jany", "M.");
+
+Array.Sort(estudiante);
+
+for (int i =0; i<estudiante.Length; i++)
+{
+    Console.WriteLine(estudiante[i]);
+}

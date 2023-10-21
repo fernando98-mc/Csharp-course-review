@@ -20,7 +20,16 @@ namespace Generics
 
         public int CompareTo(object? obj)
         {
-            throw 1;
+            if (obj is null) return 1;
+            if (obj is Estudiante miEstudiante)
+            {
+                if (miEstudiante.Apellido == this.Apellido)
+                {
+                    return this.Apellido!.CompareTo(miEstudiante.Apellido);
+                }
+                return this.Nombre!.CompareTo(miEstudiante.Nombre);
+            }
+            throw new ArgumentException("No es un objeto tipo estudiante",nameof(obj));
         }
     }
 }
