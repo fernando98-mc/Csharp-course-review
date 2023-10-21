@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class Estudiante
+    public class Estudiante : IComparable
     {
 
         public string? Nombre { set; get; }
@@ -18,5 +18,9 @@ namespace Generics
             return $"{Nombre} - {Apellido}";
         }
 
+        public int CompareTo(object? obj)
+        {
+            throw 1;
+        }
     }
 }
