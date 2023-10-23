@@ -21,15 +21,15 @@ namespace Generics
         public int CompareTo(object? obj)
         {
             if (obj is null) return 1;
-            if (obj is Estudiante miEstudiante)
+            if (obj is Estudiante miEstudiente)
             {
-                if (miEstudiante.Apellido == this.Apellido)
+                if (miEstudiente.Apellido == this.Apellido) 
                 {
-                    return this.Apellido!.CompareTo(miEstudiante.Apellido);
+                    return this.Nombre!.CompareTo(miEstudiente.Nombre);
                 }
-                return this.Nombre!.CompareTo(miEstudiante.Nombre);
+                return this.Apellido!.CompareTo(miEstudiente.Apellido);
             }
-            throw new ArgumentException("No es un objeto tipo estudiante",nameof(obj));
+            throw new ArgumentException("No es un objeto de tipo estudiante ",nameof(obj));
         }
     }
 }
