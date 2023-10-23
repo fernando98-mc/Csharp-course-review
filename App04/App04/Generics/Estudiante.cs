@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class Estudiante : IComparable
+    public class Estudiante : IComparable<Estudiante>
     {
 
         public string? Nombre { set; get; }
@@ -18,18 +18,18 @@ namespace Generics
             return $"{Nombre} - {Apellido}";
         }
 
-        public int CompareTo(object? obj)
+        public int CompareTo(Estudiante? miEstudiante)
         {
-            if (obj is null) return 1;
-            if (obj is Estudiante miEstudiente)
+            //if (obj is null) return 1;
+            //if (obj is Estudiante miEstudiente)
+            //{
+            if (miEstudiante?.Apellido == this.Apellido)
             {
-                if (miEstudiente.Apellido == this.Apellido) 
-                {
-                    return this.Nombre!.CompareTo(miEstudiente.Nombre);
-                }
-                return this.Apellido!.CompareTo(miEstudiente.Apellido);
+                return this.Nombre!.CompareTo(miEstudiante?.Nombre);
             }
-            throw new ArgumentException("No es un objeto de tipo estudiante ",nameof(obj));
+            return this.Apellido!.CompareTo(miEstudiante?.Apellido);
+            //}
+            //throw new ArgumentException("No es un objeto de tipo estudiante ",nameof(obj));
         }
     }
 }

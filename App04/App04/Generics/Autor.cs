@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class Autor : IComparable
+    public class Autor : IComparable<Autor>
     {
         public string Nombre { get; set; }
 
@@ -18,14 +18,19 @@ namespace Generics
             return $"{Nombre} {Apellido}";
         }
 
-        public int CompareTo(object? obj)
+        public int CompareTo(Autor? other)
         {
-            if (obj is null) return 1;
-            if (obj is Autor miAutor)
-            {
-                return this.ToString().CompareTo(miAutor.ToString());
-            }
-            throw new ArgumentException("No es un tipo autor", nameof(obj));
+            return this.ToString().CompareTo(other.ToString());
         }
+
+        //public int CompareTo(object? obj)
+        //{
+        //    if (obj is null) return 1;
+        //    if (obj is Autor miAutor)
+        //    {
+        //        return this.ToString().CompareTo(miAutor.ToString());
+        //    }
+        //    throw new ArgumentException("No es un tipo autor", nameof(obj));
+        //}
     }
 }
