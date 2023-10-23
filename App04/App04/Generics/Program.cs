@@ -2,18 +2,37 @@
 
 using Generics;
 
-var estudiante = new Estudiante[10];
+var estudiantes = new Estudiante[10];
 
-estudiante[0] = new Estudiante("Daya","M.");
-estudiante[1] = new Estudiante("Sandy","L.");
-estudiante[2] = new Estudiante("Clary","F.");
-estudiante[3] = new Estudiante("Nancy","R.");
-estudiante[4] = new Estudiante("Moni","Q.");
-estudiante[5] = new Estudiante("Jany", "M.");
+estudiantes[0] = new Estudiante("Daya","Ma");
+estudiantes[1] = new Estudiante("Sandy","Le");
+estudiantes[2] = new Estudiante("Clary","Fi");
+estudiantes[3] = new Estudiante("Nancy","Ro");
+estudiantes[4] = new Estudiante("Moni","Qu");
+estudiantes[5] = new Estudiante("Jany", "Ma");
+estudiantes[6] = new Estudiante("Lara","Re");
+estudiantes[7] = new Estudiante("Mars","Li");
+estudiantes[8] = new Estudiante("Deni","Ho");
+estudiantes[9] = new Estudiante("Mindi","Yu");
 
-Array.Sort(estudiante);
+Array.Sort(estudiantes);
 
-for (int i =0; i<estudiante.Length; i++)
+for (int i =0; i<estudiantes.Length; i++)
 {
-    Console.WriteLine(estudiante[i]);
+    Console.WriteLine(estudiantes[i]);
+}
+
+var autores = new Autor[10];
+
+for (int i = 0; i<estudiantes.Length; i++)
+{
+    autores[i] = new Autor(estudiantes[i].Nombre, estudiantes[i].Apellido);
+}
+
+Console.WriteLine("Esta es la lista de autores");
+Array.Sort(autores);
+
+for (int i = 0; i<autores.Length; i++)
+{
+    Console.WriteLine(autores[i]);
 }

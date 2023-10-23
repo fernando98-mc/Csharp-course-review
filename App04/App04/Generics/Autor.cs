@@ -7,6 +7,12 @@ namespace Generics
 
         public string Apellido { get; set; }
 
+        public Autor(string nombre, string apellido)
+        {
+            Nombre = nombre;
+            Apellido = apellido;
+        }
+
         public override string ToString()
         {
             return $"{Nombre} {Apellido}";
@@ -14,7 +20,6 @@ namespace Generics
 
         public int CompareTo(object? obj)
         {
-
             if (obj is null) return 1;
             if (obj is Autor miAutor)
             {
