@@ -15,24 +15,27 @@ using Generics;
 //estudiantes[8] = new Estudiante("Deni", "Ho");
 //estudiantes[9] = new Estudiante("Mindi", "Yu");
 
-Array.Sort(estudiantes);
+//Array.Sort(estudiantes);
 
-for (int i = 0; i < estudiantes.Length; i++)
-{
-    Console.WriteLine(estudiantes[i]);
-}
+//for (int i = 0; i < estudiantes.Length; i++)
+//{
+//    Console.WriteLine(estudiantes[i]);
+//}
 
-var autores = new Autor[10];
+//var autores = new Autor[10];
 
-for (int i = 0; i < estudiantes.Length; i++)
-{
-    autores[i] = new Autor(estudiantes[i].Nombre, estudiantes[i].Apellido);
-}
+//for (int i = 0; i < estudiantes.Length; i++)
+//{
+//    autores[i] = new Autor(estudiantes[i].Nombre, estudiantes[i].Apellido);
+//}
 
-Console.WriteLine("Esta es la lista de autores");
-Array.Sort(autores);
+//Console.WriteLine("Esta es la lista de autores");
+//Array.Sort(autores);
 
-for (int i = 0; i < autores.Length; i++)
-{
-    Console.WriteLine(autores[i]);
-}
+//for (int i = 0; i < autores.Length; i++)
+//{
+//    Console.WriteLine(autores[i]);
+//}
+
+var estudianteService = new EstudiantePrinterService(new EstudianteRepository());
+estudianteService.PrinterEstudiantes();
