@@ -3,6 +3,6 @@ namespace Generics
 {
     public interface IAutorRepository
     {
-        Autor[] List();
+        IEnumerable<Autor> List();
     }
 }

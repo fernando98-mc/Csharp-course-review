@@ -3,21 +3,30 @@ namespace Generics
 {
     public class EstudianteRepository : IRepository<Estudiante>
     {
-        public Estudiante[] List()
-        {
-            var estudiantes = new Estudiante[10];
+        private NombreCompleto[] _nombres = new NombreCompleto[10];
 
-            estudiantes[0] = new Estudiante("Daya", "Ma");
-            estudiantes[1] = new Estudiante("Sandy", "Le");
-            estudiantes[2] = new Estudiante("Clary", "Fi");
-            estudiantes[3] = new Estudiante("Nancy", "Ro");
-            estudiantes[4] = new Estudiante("Moni", "Qu");
-            estudiantes[5] = new Estudiante("Jany", "Ma");
-            estudiantes[6] = new Estudiante("Lara", "Re");
-            estudiantes[7] = new Estudiante("Mars", "Li");
-            estudiantes[8] = new Estudiante("Deni", "Ho");
-            estudiantes[9] = new Estudiante("Mindi", "Yu");
-            return estudiantes;
+        public EstudianteRepository()
+        {
+            _nombres[0] = new ("Daya", "Ma");
+            _nombres[1] = new ("Sandy", "Le");
+            _nombres[2] = new ("Clary", "Fi");
+            _nombres[3] = new ("Nancy", "Ro");
+            _nombres[4] = new ("Moni", "Qu");
+            _nombres[5] = new ("Jany", "Ma");
+            _nombres[6] = new ("Lara", "Re");
+            _nombres[7] = new ("Mars", "Li");
+            _nombres[8] = new ("Deni", "Ho");
+            _nombres[9] = new ("Mindi", "Yu");
+        }
+
+        public IEnumerable<Estudiante> List()
+        {
+            int index = 0;
+            while (index < _nombres.Length)
+            {
+                yield return new Estudiante(_nombres[index].Nombre, _nombres[index].apellido);
+                index++;
+            }
         }
     }
 }

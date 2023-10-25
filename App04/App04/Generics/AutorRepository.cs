@@ -3,7 +3,14 @@ namespace Generics
 {
     public class AutorRepository : IRepository<Autor>
     {
-        public Autor[] List()
+        private NombreCompleto[] _nombres = new NombreCompleto[10];
+
+        public AutorRepository()
+        {
+
+        }
+
+        public IEnumerable<Autor> List()
         {
             var autores = new Autor[10];
 

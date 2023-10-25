@@ -33,4 +33,7 @@ namespace Generics
             //throw new ArgumentException("No es un objeto de tipo estudiante ",nameof(obj));
         }
     }
+
+    public record NombreCompleto(string Nombre, string apellido);
+
 }

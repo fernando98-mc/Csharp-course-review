@@ -14,7 +14,7 @@ namespace Generics
 
         public void PrinterAutores()
         {
-            var autores = _repositoryAutor.List();
+            var autores = _repositoryAutor.List().ToArray();
             Array.Sort(autores);
             Console.WriteLine("Imprimiendo autores desde PrinterAutores");
             for (int i = 0; i<autores.Length; i++)
