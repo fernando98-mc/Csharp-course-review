@@ -38,7 +38,7 @@ using Generics;
 //}
 
 var estudianteService = new EstudiantePrinterService(new EstudianteRepository());
-estudianteService.PrinterEstudiantes();
+estudianteService.PrinterEstudiantes(5);
 
 Console.WriteLine($"El total de estudiantes es de : {Estudiante.EstudianteCount}");
 

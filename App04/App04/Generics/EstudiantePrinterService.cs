@@ -11,12 +11,12 @@ namespace Generics
             _estudianteRepository = estudianteRepository;
         }
 
-        public void PrinterEstudiantes()
+        public void PrinterEstudiantes(int max = 100)
         {
             var estudiantes = _estudianteRepository.List();
             Array.Sort(estudiantes);
             Console.WriteLine("Imprimiendo la lista de estudiantes desde printService Estudiantes");
-            for (int i =0; i <estudiantes.Length; i++)
+            for (int i =0; i <estudiantes.Length && i<max; i++)
             {
                 Console.WriteLine(estudiantes[i]);
             }
