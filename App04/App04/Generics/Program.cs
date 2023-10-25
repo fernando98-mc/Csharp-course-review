@@ -40,6 +40,8 @@ using Generics;
 var estudianteService = new EstudiantePrinterService(new EstudianteRepository());
 estudianteService.PrinterEstudiantes();
 
+Console.WriteLine($"El total de estudiantes es de : {Estudiante.EstudianteCount}");
 
-var autoresService = new AutorPrinterRepository(new AutorRepository());
-autoresService.PrinterAutores();
+//var autoresService = new AutorPrinterRepository(new AutorRepository());
+//autoresService.PrinterAutores();
+
