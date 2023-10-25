@@ -39,3 +39,7 @@ using Generics;
 
 var estudianteService = new EstudiantePrinterService(new EstudianteRepository());
 estudianteService.PrinterEstudiantes();
+
+
+var autoresService = new AutorPrinterRepository(new AutorRepository());
+autoresService.PrinterAutores();
