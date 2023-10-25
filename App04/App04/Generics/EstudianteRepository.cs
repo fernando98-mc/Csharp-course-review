@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class EstudianteRepository : IEstudianteRepository
+    public class EstudianteRepository : IRepository<Estudiante>
     {
         public Estudiante[] List()
         {

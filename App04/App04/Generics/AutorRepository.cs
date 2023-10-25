@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class AutorRepository : IAutorRepository
+    public class AutorRepository : IRepository<Autor>
     {
         public Autor[] List()
         {

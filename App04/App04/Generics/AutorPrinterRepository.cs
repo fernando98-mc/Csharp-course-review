@@ -5,9 +5,9 @@ namespace Generics
     public class AutorPrinterRepository
     {
 
-        private readonly IAutorRepository _repositoryAutor;
+        private readonly IRepository<Autor> _repositoryAutor;
 
-        public AutorPrinterRepository(IAutorRepository repositoryAutor)
+        public AutorPrinterRepository(IRepository<Autor> repositoryAutor)
         {
             _repositoryAutor = repositoryAutor;
         }

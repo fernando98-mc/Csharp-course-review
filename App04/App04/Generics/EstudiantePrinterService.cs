@@ -4,9 +4,9 @@ namespace Generics
 {
     public class EstudiantePrinterService
     {
-        private readonly IEstudianteRepository _estudianteRepository;
+        private readonly IRepository<Estudiante> _estudianteRepository;
 
-        public EstudiantePrinterService(IEstudianteRepository estudianteRepository)
+        public EstudiantePrinterService(IRepository<Estudiante> estudianteRepository)
         {
             _estudianteRepository = estudianteRepository;
         }
@@ -15,7 +15,7 @@ namespace Generics
         {
             var estudiantes = _estudianteRepository.List();
             Array.Sort(estudiantes);
-            Console.WriteLine("Imprimiendo la lista de estudiantes desde printService");
+            Console.WriteLine("Imprimiendo la lista de estudiantes desde printService Estudiantes");
             for (int i =0; i <estudiantes.Length; i++)
             {
                 Console.WriteLine(estudiantes[i]);
