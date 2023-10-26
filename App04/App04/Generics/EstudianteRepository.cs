@@ -26,6 +26,16 @@ namespace Generics
                                     || estudiante.Apellido!.Contains(nombre));
         }
 
+        public Estudiante Crear(NombreCompleto nombre)
+        {
+            return new Estudiante(nombre.Nombre, nombre.apellido);
+        }
+
+        public Estudiante CrearPorDefecto()
+        {
+            return new Estudiante();
+        }
+
         public IEnumerable<Estudiante> List()
         {
             int index = 0;
