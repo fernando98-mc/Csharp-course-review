@@ -4,9 +4,9 @@ namespace Generics
 {
     public class EstudiantePrinterService
     {
-        private readonly IRepository<Estudiante> _estudianteRepository;
+        private readonly IPersonaRepository<Estudiante> _estudianteRepository;
 
-        public EstudiantePrinterService(IRepository<Estudiante> estudianteRepository)
+        public EstudiantePrinterService(IPersonaRepository<Estudiante> estudianteRepository)
         {
             _estudianteRepository = estudianteRepository;
         }
@@ -24,6 +24,9 @@ namespace Generics
             var estudiantes = _estudianteRepository.OrdenarList().Take(max).ToArray();
 
             PrinterEstudiantesEnumerable(estudiantes); /* NO ORDENA es mas rapido que el ToArray()*/
+
+            var estudiantesBuscados = _estudianteRepository.Buscar("Ho");
+            PrinterEstudianteBusqueda(estudiantesBuscados);
         }
 
         /*
@@ -37,6 +40,16 @@ namespace Generics
                 Console.WriteLine(estudiante);
             }
         }
+
+        private void PrinterEstudianteBusqueda(IEnumerable<Estudiante> estudiantes)
+        {
+            Console.WriteLine("Estudiantes buscados");
+            foreach (var estudiante in estudiantes)
+            {
+                Console.WriteLine(estudiante);
+            }
+        }
+
 
 
     }

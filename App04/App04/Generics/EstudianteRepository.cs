@@ -21,8 +21,9 @@ namespace Generics
 
         public IEnumerable<Estudiante> Buscar(string nombre)
         {
+            /* [WHERE -> busca dentro de colleciones de datos] */
             return List().Where(estudiante => estudiante.Nombre!.Contains(nombre)
-                                || estudiante.Apellido!.Contains(nombre));
+                                    || estudiante.Apellido!.Contains(nombre));
         }
 
         public IEnumerable<Estudiante> List()
