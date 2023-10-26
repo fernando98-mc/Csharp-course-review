@@ -28,5 +28,12 @@ namespace Generics
                 index++;
             }
         }
+
+        public IEnumerable<Estudiante> OrdenarList()
+        {
+            var estudiantes = List().ToList();
+            estudiantes.Sort();
+            return estudiantes;
+        }
     }
 }

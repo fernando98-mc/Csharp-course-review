@@ -26,5 +26,10 @@ namespace Generics
             autores[9] = new Autor("Mindi", "Yu");
             return autores;
         }
+
+        public IEnumerable<Autor> OrdenarList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

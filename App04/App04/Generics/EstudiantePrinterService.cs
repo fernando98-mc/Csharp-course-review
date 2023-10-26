@@ -13,13 +13,16 @@ namespace Generics
 
         public void PrinterEstudiantes(int max = 100)
         {
-            var estudiantes = _estudianteRepository.List().Take(max);//.ToArray();
+            //var estudiantes = _estudianteRepository.List().Take(max);//.ToArray();
             //Array.Sort(estudiantes);
             //Console.WriteLine("Imprimiendo la lista de estudiantes desde printService Estudiantes");
             //for (int i =0; i <estudiantes.Length; i++)
             //{
             //    Console.WriteLine(estudiantes[i]);
             //}
+
+            var estudiantes = _estudianteRepository.OrdenarList().Take(max).ToArray();
+
             PrinterEstudiantesEnumerable(estudiantes); /* NO ORDENA es mas rapido que el ToArray()*/
         }
 

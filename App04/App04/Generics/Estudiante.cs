@@ -3,7 +3,7 @@ namespace Generics
 {
     public class Estudiante : IComparable<Estudiante>
     {
-        public static int EstudianteCount = 0;
+        //public static int EstudianteCount = 0;
         public string? Nombre { set; get; }
         public string? Apellido { set; get; }
 
@@ -11,7 +11,7 @@ namespace Generics
         {
             Nombre = nombre;
             Apellido = apellido;
-            EstudianteCount++;
+            //EstudianteCount++;
         }
 
         public override string ToString()
