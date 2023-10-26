@@ -1,7 +1,7 @@
 ﻿
 namespace Generics
 {
-    public class EstudianteRepository : IRepository<Estudiante>
+    public class EstudianteRepository : IPersonaRepository<Estudiante>
     {
         private NombreCompleto[] _nombres = new NombreCompleto[10];
 
@@ -17,6 +17,12 @@ namespace Generics
             _nombres[7] = new ("Mars", "Li");
             _nombres[8] = new ("Deni", "Ho");
             _nombres[9] = new ("Mindi", "Yu");
+        }
+
+        public IEnumerable<Estudiante> Buscar(string nombre)
+        {
+            return List().Where(estudiante => estudiante.Nombre!.Contains(nombre)
+                                || estudiante.Apellido!.Contains(nombre));
         }
 
         public IEnumerable<Estudiante> List()

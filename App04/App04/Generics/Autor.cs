@@ -1,11 +1,10 @@
 ﻿
 namespace Generics
 {
-    public class Autor : IComparable<Autor>
+    public class Autor : Persona, IComparable<Autor>
     {
-        public string Nombre { get; set; }
-
-        public string Apellido { get; set; }
+        //public string Nombre { get; set; }
+        //public string Apellido { get; set; }
 
         public Autor(string nombre, string apellido)
         {

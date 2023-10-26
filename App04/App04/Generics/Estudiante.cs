@@ -1,11 +1,11 @@
 ﻿
 namespace Generics
 {
-    public class Estudiante : IComparable<Estudiante>
+    public class Estudiante : Persona, IComparable<Estudiante>
     {
         //public static int EstudianteCount = 0;
-        public string? Nombre { set; get; }
-        public string? Apellido { set; get; }
+        //public string? Nombre { set; get; }
+        //public string? Apellido { set; get; }
 
         public Estudiante(string? nombre, string? apellido)
         {
